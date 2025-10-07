@@ -13,7 +13,8 @@ I wanted to learn Spring Boot and explore Java development beyond my usual Pytho
 | JavaScript   | Frontend UI   |
 | Java         | Backend (Spring Boot) |
 | Python       | Data preprocessing |
-| CSS / HTML   | Styling and layout |
+| PostgreSQL (psql)| Relational database |
+| CSS / HTML       | Styling and layout |
 
 ## 📊 Features
 
@@ -30,16 +31,29 @@ I wanted to learn Spring Boot and explore Java development beyond my usual Pytho
 
 - [Taylor Swift Spotify Dataset on Kaggle](https://www.kaggle.com/datasets/jarredpriester/taylor-swift-spotify-dataset/data)
 
-## 📸 Demo
+![Backend](https://github.com/user-attachments/assets/97be6ccc-36e8-4d95-b031-edee77243272)
+
 ![Backend](https://github.com/user-attachments/assets/10be3938-83de-4e68-a5c5-66998a873620)
 
-![Initial UI](https://github.com/user-attachments/assets/18cb5618-be5d-43ed-a662-19cf785501fe/Screenshot%202025-10-07%20195747.png)
-![Stats Page](https://github.com/user-attachments/assets/a73f3f93-3f98-4ee4-ac18-307223d46749/Screenshot%202025-10-07%20185155.png)
-![Album View](https://github.com/user-attachments/assets/26f89e70-4b07-4efe-9b3c-b08d7d688f1d/Screenshot%202025-10-07%20185138.png)
+*Spring Boot backend setup with PostgreSQL integration*
+
+![Initial UI](https://github.com/user-attachments/assets/18cb5618-be5d-43ed-a662-19cf785501fe)
+
+*Initial UI showing basic layout*
+
+![Album View](https://github.com/user-attachments/assets/26f89e70-4b07-4efe-9b3c-b08d7d688f1d)
+
+*Improved UI - Album View*
+
+![Stats Page](https://github.com/user-attachments/assets/a73f3f93-3f98-4ee4-ac18-307223d46749)
+
+*Stats Page showing track-level audio features like danceability and energy*
 
 ## 🚀 What I Learned
 
 - How to set up and structure a Spring Boot backend
+- Connected Spring Boot to a PostgreSQL database using JPA and psql
+- Learned how to structure and query relational data for music analytics
 - Integrating Java with a modern JavaScript frontend
 - Handling CSV data and building RESTful endpoints
 - Managing Git submodules (accidentally!) and cleaning up repo structure
