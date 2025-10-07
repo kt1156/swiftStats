@@ -32,7 +32,7 @@ public class TrackController {
         return trackRepo.findById(id).orElse(null);
     }
 
-        @GetMapping("/album/{album}")
+    @GetMapping(value = "/album/{album}", produces = "application/json; charset=UTF-8")
     public List<Track> getTracksByAlbum(@PathVariable String album) {
         return trackRepo.findByAlbumIgnoreCase(album);
     }
