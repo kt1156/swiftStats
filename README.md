@@ -41,7 +41,7 @@ I wanted to learn Spring Boot and explore Java development beyond my usual Pytho
 
 *Initial UI showing basic layout*
 
-![Album View](https://github.com/user-attachments/assets/26f89e70-4b07-4efe-9b3c-b08d7d688f1d)
+![Album View](https://github.com/user-attachments/assets/9acdbe31-78c0-4f8e-a7fd-a50f357660b7)
 
 *Improved UI - Album View*
 
