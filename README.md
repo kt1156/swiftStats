@@ -31,7 +31,25 @@ I wanted to learn Spring Boot and explore Java development beyond my usual Pytho
 
 - [Taylor Swift Spotify Dataset on Kaggle](https://www.kaggle.com/datasets/jarredpriester/taylor-swift-spotify-dataset/data)
 
-![Backend](https://github.com/user-attachments/assets/97be6ccc-36e8-4d95-b031-edee77243272)
+## ⚙️ Setup Instructions
+
+### 1. Database Setup (PostgreSQL)
+- Make sure PostgreSQL is installed and running.
+- Create the database:
+  ```bash
+  psql -U your_username
+  CREATE DATABASE taylor_data;
+- Run the Spring Boot application:
+   ```bash
+   cd backend
+   mvn spring-boot:run
+- Navigate to frontend directory
+
+   ```bash
+   npm install
+   npm run start
+ 
+## 📷 Demo
 
 ![Backend](https://github.com/user-attachments/assets/10be3938-83de-4e68-a5c5-66998a873620)
 
