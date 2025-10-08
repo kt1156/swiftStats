@@ -6,8 +6,8 @@ import requests
 import base64
 import pandas as pd
 
-client_id = "5f6007549c4b4aa2bc048f740245ed82"
-client_secret = "ec2dc7a84c3444a2a8a11b2515b4f9f6"
+client_id = "insert_client_id"
+client_secret = "insert_client_secret"
 
 # encode credentials
 auth_str = f"{client_id}:{client_secret}"
